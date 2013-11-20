@@ -9,3 +9,27 @@
  */
 
 @import url("../reverie-master/style.css");
+@import url("http://fonts.googleapis.com/css?family=Arvo:400,800");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,800");
+
+/* ==== GLOBAL STYLES ==== */
+
+body { font-family: "Arvo", serif; }
+
+/* ==== HEADER/DESKTOP NAV ==== */
+
+@media screen and (min-width: 768px) {
+    
+    /* Header Styles */
+    body > .contain-to-grid { background: #00bff3; }
+    .header-text p { text-align: center; line-height: 1.15em; margin-bottom: 2.5em; color: #fff; font-size: 1.8em; font-family: "Open Sans", Helvetica Nue, Helvetica, sans-serif; font-weight: 200; }
+    .home .header-text p:first-child { margin-bottom: 0.65em; }
+    
+    /* Nav Styles */
+    .desktop-nav { margin: -1.4em auto 2em auto; }
+    
+    .non-mobile-nav { max-width: 75em; width: 100%; background: transparent; display: table; margin: 0 auto; table-layout: fixed; padding-left: 5%; }
+    .non-mobile-nav li { list-style: none; display: table-cell; margin-right: 1.5em; text-align: center; }
+    .non-mobile-nav li:last-child { margin-right: 0; }
+    .non-mobile-nav a { height: 100%; width: 90%; display: block; padding: 0.8em; background: #e1e1e1; color: #00bff3; border-bottom: 3px solid #b7b7b7; }
+}
