@@ -112,7 +112,7 @@
 	<div class="header-bar row">
 		<div class="menu-btn small-3 columns">&#9776; Menu</div>
 		<div class="header-logo large-3 large-centered small-3 small-centered columns">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="http://localhost/m3studios/wp-content/uploads/2013/11/m3s-logo-white.png" /></a>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/m3s-logo-white.png" /></a>
 		</div>
 		
 		<div class="header-text large-8  large-centered columns hide-for-small">
