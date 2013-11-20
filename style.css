@@ -15,6 +15,7 @@
 /* ==== GLOBAL STYLES ==== */
 
 body { font-family: "Arvo", serif; }
+h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; font-weight: 400; }
 
 /* ==== HEADER/DESKTOP NAV ==== */
 
@@ -41,7 +42,7 @@ body { font-family: "Arvo", serif; }
     
     body > #container > .contain-to-grid { background: #00bff3; }
     
-    .menu-btn { padding-top: 1em; padding-left: 1em; color: #e1e1e1; }
+    .menu-btn { padding-top: 5%; padding-left: 2%; color: #e1e1e1; }
 }
 
 
@@ -69,3 +70,16 @@ body { font-family: "Arvo", serif; }
 .site-overlay { display: none; }
 .container-push { position: fixed; }
 .pushy-active .site-overlay { display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 21.5em; z-index: 9999; overflow: hidden; }
+
+/* ==== PORTFOLIO ==== */
+
+.post-circle { height: 300px; width: 300px; overflow: hidden; border-radius: 300px; background: no-repeat; border: 2px solid #e1e1e1;  }
+.portfolio p { font-family: "Open Sans", sans-serif; font-weight: 300; }
+
+@media (min-width: 768px) {
+    .portfolio p { text-align: center; }
+}
+
+/* ==== FOOTER ==== */
+
+footer.row.full-width { background: #e1e1e1; }

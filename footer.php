@@ -7,7 +7,7 @@
 
 <footer class="row full-width" role="contentinfo">
 	<div class="small-12 large-4 columns">
-		<p>&copy; <?php echo date('Y'); ?>. <?php _e('Crafted on','reverie'); ?> <a href="http://themefortress.com/reverie/" rel="nofollow" title="Reverie Framework">Reverie</a>.</p>
+		<p>&copy; Maia M. McGuinness, <?php echo date('Y'); ?>.</p>
 	</div>
 </footer>
 </div>
