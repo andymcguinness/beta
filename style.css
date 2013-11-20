@@ -35,6 +35,8 @@ h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; font-weight: 400;
     .non-mobile-nav li { list-style: none; display: table-cell; margin-right: 1.5em; text-align: center; }
     .non-mobile-nav li:last-child { margin-right: 0; }
     .non-mobile-nav a { height: 100%; width: 90%; display: block; padding: 0.8em; background: #e1e1e1; color: #000; border-bottom: 3px solid #b7b7b7; }
+    
+    .non-mobile-nav a:hover { background: #b7b7b7; color: #fff; }
 }
 
 @media (max-width: 767px) {
