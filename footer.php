@@ -10,8 +10,11 @@
 		<p>&copy; <?php echo date('Y'); ?>. <?php _e('Crafted on','reverie'); ?> <a href="http://themefortress.com/reverie/" rel="nofollow" title="Reverie Framework">Reverie</a>.</p>
 	</div>
 </footer>
+</div>
 
 <?php wp_footer(); ?>
+
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/pushy.min.js"></script>
 
 <script>
 	(function($) {
