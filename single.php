@@ -21,6 +21,10 @@
 	<?php endwhile; // End the loop ?>
 
 	</div>
-	<?php get_sidebar(); ?>
+	<?php if ( get_post_type() == 'item') {
+		get_sidebar('portfolio');
+	} else {
+		get_sidebar();
+	} ?>
 		
 <?php get_footer(); ?>
