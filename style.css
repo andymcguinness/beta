@@ -80,6 +80,22 @@ h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; font-weight: 400;
     .portfolio p { text-align: center; }
 }
 
+
+/* ==== SOCIAL ==== */
+
+.social-media #behance { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: 0 0; }
+    .social-media #behance:hover { background-position: -576px 0;}
+.social-media #dribbble { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: -96px 0; }
+    .social-media #dribbble:hover { background-position: -672px 0;}
+.social-media #github { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: -192px 0; }
+    .social-media #github:hover { background-position: -768px 0;}
+.social-media #google-plus { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: -288px 0; }
+    .social-media #google-plus:hover { background-position: -864px 0;}
+.social-media #linked-in { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: -384px 0; }
+    .social-media #linked-in:hover { background-position: -960px 0;}
+.social-media #twitter { height: 96px; width: 96px; background-image:url(images/socialsprites.png); background-position: -480px 0; }
+    .social-media #twitter:hover { background-position: -1056px 0;}
+
 /* ==== FOOTER ==== */
 
 footer.row.full-width { background: #e1e1e1; }
