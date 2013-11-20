@@ -19,12 +19,15 @@ h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; font-weight: 400;
 
 ul { margin-left: 1.25em; }
 
+.container ::selection { background: #00bff3; color: #fff; }
+
 /* ==== HEADER/DESKTOP NAV ==== */
 
 @media screen and (min-width: 768px) {
     
     /* Header Styles */
     body > #container > .contain-to-grid { background: #00bff3; }
+    body > #container > .contain-to-grid ::selection { background: #fff; color: #000; }
     .header-text p { text-align: center; line-height: 1.15em; margin-bottom: 2.4em; color: #fff; font-size: 1.8em; font-family: "Open Sans", Helvetica Nue, Helvetica, sans-serif; font-weight: 200; }
     .home .header-text p:first-child { margin-bottom: 0.5em; }
     
