@@ -110,13 +110,13 @@
 <div class="contain-to-grid">
 	<!-- Starting the Top-Bar -->
 	<div class="header-bar row">
-		<div class="menu-btn small-3 columns">&#9776; Menu</div>
-		<div class="header-logo large-3 large-centered small-3 small-centered columns">
+		<div class="menu-btn small-3 columns"><i class="icon-menu"></i></div>
+		<div class="header-logo large-3 large-centered small-4 small-centered columns">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/m3s-logo-white.png" /></a>
 		</div>
 		
 		<div class="header-text large-8  large-centered columns hide-for-small">
-			<p>my name is maia m. mcguinness.</p>
+			<p>my name is <span class="init">m</span>aia <span class="init">m</span>. <span class="init">m</span>cguinness.</p>
 		<?php
 		if (is_page( "Welcome") ) {
 			echo "<p>i'm a web developer currently residing in florida.</p>";
