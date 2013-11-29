@@ -20,7 +20,7 @@ function m3_register_required_plugins() {
 	    'name'     				=> 'm3 Portfolio',
 	    'slug'     				=> 'm3-portfolio',
 	    'required' 				=> true,
-		'source'				=> 'https://maiamcguinness@bitbucket.org/maiamcguinness/m3-portfolio-plugin.git',
+		'source'				=> 'https://bitbucket.org/maiamcguinness/m3-portfolio-plugin/get/master.zip',
 	    'force_activation' 		        => false,
 	    'force_deactivation' 	        => false
 	)
