@@ -116,10 +116,10 @@
 		</div>
 		
 		<div class="header-text large-8  large-centered columns hide-for-small">
-			<p>my name is <span class="init">m</span>aia <span class="init">m</span>. <span class="init">m</span>cguinness.</p>
+			<p>my name is <span class="init">M</span>aia <span class="init">M</span>. <span class="init">M</span>cGuinness.</p>
 		<?php
 		if (is_page( "Welcome") ) {
-			echo "<p>i'm a web developer currently residing in florida.</p>";
+			echo "<p>i'm a web developer in florida. this is where i build things.</p>";
 		}
 		?>
 		</div>
