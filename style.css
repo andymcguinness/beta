@@ -14,7 +14,7 @@
 
 /* ==== GLOBAL STYLES ==== */
 
-body { font-family: "Arvo", serif; }
+body { font-family: "Arvo", serif; -webkit-tap-highlight-color: rgba(0,0,0,0); }
 h1, h2, h3, h4, h5, h6 { font-family: "Open Sans", sans-serif; font-weight: 400; }
 
 ul { margin-left: 1.25em; }
@@ -89,7 +89,7 @@ ul { margin-left: 1.25em; }
 /* === PUSHY === */
 
 /* Menu Appearance */
-.pushy { position: fixed; width: 21.5em; height: 100%; top: 0; z-index: 9999; overflow-y: hidden; overflow-x: hidden; font-size: 1em; background: #999; }
+.pushy { position: fixed; width: 16em; height: 100%; top: 0; z-index: 9999; overflow-y: hidden; overflow-x: hidden; font-size: 1em; background: #999; }
 .pushy a { display: block; text-decoration: none; padding: 1.2em 0 1.2em 0.8em; color: #fff; border-bottom: 1px solid #aaa; width: 100%; height: 100%; }
 .pushy li:last-child a { border-bottom: none; }
 .pushy li { list-style: none; display: block; width: 100%; }
@@ -102,14 +102,14 @@ ul { margin-left: 1.25em; }
 .pushy .sub-menu li:last-child { border-bottom: none; }
 
 /* Menu Movement */
-.pushy.pushy-left { -webkit-transform: translate(-21.5em,0); -moz-transform: translate(-21.5em,0); -ms-transform: translate(-21.5em,0); -o-transform: translate(-21.5em,0); transform: translate(-21.5em,0); }
+.pushy.pushy-left { -webkit-transform: translate(-16em,0); -moz-transform: translate(-16em,0); -ms-transform: translate(-16em,0); -o-transform: translate(-16em,0); transform: translate(-16em,0); }
 .pushy.pushy-open { -webkit-transform: translate(0,0); -moz-transform: translate(0,0); -ms-transform: translate(0,0); -o-transform: translate(0,0); transform: translate(0,0); }
-.container-push { -webkit-transform: translate(21.5em,0); -moz-transform: translate(21.5em,0); -ms-transform: translate(21.5em,0); -o-transform: translate(21.5em,0); transform: translate(21.5em,0); }
+.container-push { -webkit-transform: translate(16em,0); -moz-transform: translate(16em,0); -ms-transform: translate(16em,0); -o-transform: translate(16em,0); transform: translate(16em,0); }
 
 /* Site Overlay */ 
 .site-overlay { display: none; }
 .container-push { position: fixed; }
-.pushy-active .site-overlay { display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 21.5em; z-index: 9999; overflow: hidden; }
+.pushy-active .site-overlay { display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 16em; z-index: 9999; overflow: hidden; }
 
 /* ==== PORTFOLIO ==== */
 
