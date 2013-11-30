@@ -9,6 +9,7 @@
  */
 
 @import url("../reverie-master/style.css");
+@import url("lib/block-grid-5.css");
 @import url("http://fonts.googleapis.com/css?family=Arvo:400,800");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
 
@@ -114,10 +115,10 @@ ul { margin-left: 1.25em; }
 /* ==== PORTFOLIO ==== */
 
 .post-circle { height: 300px; width: 300px; overflow: hidden; border-radius: 300px; background: no-repeat; border: 2px solid #e1e1e1;  }
-.portfolio p { font-family: "Open Sans", sans-serif; font-weight: 400; }
+.portfolio p { font-family: "Open Sans", sans-serif; font-weight: 400; text-align: center; }
 
 @media (min-width: 768px) {
-    .portfolio p { text-align: center; }
+    .portfolio p {  }
 }
 
 
