@@ -1,6 +1,6 @@
 # Welcome!
 
-Welcome to this theme! This is m3studios, a theme based around [my personal website](www.maiamcguinness.com). It is rooted in my branding, and I'm quite pleased with how it turned out. Have a look at the docs, if you'd like!
+Welcome to this theme! This is m3studios, a theme based around [my personal website](www.andymcguinness.com). It is rooted in my branding, and I'm quite pleased with how it turned out. Have a look at the docs, if you'd like!
 
 ## Basics
 

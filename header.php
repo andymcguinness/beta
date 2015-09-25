@@ -116,7 +116,7 @@
 		</div>
 		
 		<div class="header-text large-8  large-centered columns hide-for-small">
-			<p>hello, i'm <span class="init">Maia M. McGuinness</span>.</p>
+			<p>hello, i'm <span class="init">Andy McGuinness</span>.</p>
 		<?php
 		if (is_page( "Welcome") ) {
 			echo "<p>i'm a web developer currently in florida. this is where i build things.</p>";
